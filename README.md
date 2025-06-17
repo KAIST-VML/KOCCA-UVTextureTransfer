@@ -27,7 +27,7 @@ python get_features.py 'data/target/mesh'
 ```
 Do the same for the target mesh.
 
-The names 'source' and 'target' are arbitrary. Just match the following directory structure.
+The names 'source' and 'target' are arbitrary. Just match the following directory structure:
 
 ```
 .
@@ -44,7 +44,7 @@ The names 'source' and 'target' are arbitrary. Just match the following director
 ```
 python transfer_textures.py data/source data/target
 ```
-Assuming you computed the diffusion 3D features, this code will transfer the source textures from the source UV to the target UV. 
+Provided that you computed the diffusion 3D features, this code will transfer the source textures from the source UV to the target UV.
 
 ## Evaluation
 ### Creating ground truth texture output
@@ -53,7 +53,7 @@ While this method is mesh agnostic, creating ground truth target texture from th
 python utils/reproject_textures.py
 ```
 
-### Measure Fréchet inception distance
+### Calculate Fréchet inception distance (FID)
 ```
 python evaluate_textures.py data/target/textures output/source2target
 ```
