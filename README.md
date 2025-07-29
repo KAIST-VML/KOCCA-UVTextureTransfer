@@ -1,4 +1,4 @@
-# UV Texture Transfer (UV 기반 텍스처 전이를 통한 모델 전환)
+# UV 기반 텍스처 전이를 통한 모델 전환
 Mesh-agnostic UV texture transfer.
 
 ## Setup
